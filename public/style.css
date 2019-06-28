@@ -1,0 +1,18 @@
+*{
+	text-align: center;
+}
+h1{
+	font-family: Gill Sans, sans-serif;
+}
+a{
+	font-family: Gill Sans, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #001e6d;
+    padding: 4px;
+    margin: 3px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
