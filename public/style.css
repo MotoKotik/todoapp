@@ -4,7 +4,7 @@
 h1{
 	font-family: Gill Sans, sans-serif;
 }
-a{
+p{
 	font-family: Gill Sans, sans-serif;
     color: #000000;
     text-decoration: none;
@@ -15,4 +15,11 @@ a{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+.undone {
+  color: #61DAFB;
 }
