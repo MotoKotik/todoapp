@@ -34,7 +34,7 @@ const TodoForm = ({addTodo}) => {
 
 const Todo = ({todo, remove, complete}) => {
   // Each Todo
-  return (<p click="remove(todo.id)">{todo.text}</p>);
+  return (<p onClick={()=>remove(todo.id)}>{todo.text}</p>);
 }
 
 const TodoList = ({todos, remove, complete}) => {
